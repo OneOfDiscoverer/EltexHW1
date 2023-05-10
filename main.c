@@ -112,10 +112,10 @@ int main(){
                 }
                 break;
             case 'q':
-                return 0;
+                exit(0);
                 break;
             default:
-                printf("help\nw - write [FirstName] [SecondName] [PhoneNumber] ...\nr - read [ID]\nd - delene [ID]\nl - list all\ns - search [PARAM]\nq - quit\n");
+                printf("help\nw - write [FirstName] [SecondName] [PhoneNumber] [Address]\nr - read [ID]\nd - delene [ID]\nl - list all\ns - search [PARAM]\nq - quit\n");
                 break;
         }
     }
